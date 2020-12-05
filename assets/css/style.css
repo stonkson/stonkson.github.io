@@ -1,0 +1,1409 @@
+:root {
+    --title: #404A5B;
+    --main-bg: #3C8B01;
+}
+
+*, *:after, *:before {
+    box-sizing: border-box;
+    font-family: "Gilroy", sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    padding: 87px 0 0 0;
+    margin: 0;
+    font-size: 16px;
+    color: #404A5B;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1, h2, h3 {
+    color: var(--title);
+    font-size: 56px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+}
+
+h4 {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+header {
+    background-color: var(--main-bg);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 87px;
+    z-index: 96;
+}
+
+header > .container {
+    height: 87px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .social {
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+header .social img {
+    width: 36px;
+    margin-left: 10px;
+}
+
+header .social span {
+    margin-right: 5px;
+    display: inline-block;
+}
+
+header .phone a {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+header .phone a img {
+    margin-right: 15px;
+}
+
+.newtxt {
+    padding-left: 400px;
+    margin-top: -40px;
+    margin-bottom: 40px;
+    position: absolute;
+}
+
+.screen-1 {
+    background: url("../img/screen-1-bg.png") bottom center no-repeat;
+}
+
+.screen-1 > .container {
+    position: relative;
+    min-height: 768px;
+    padding-top: 100px;
+}
+
+.screen-1-phone {
+    position: absolute;
+    left: -100px;
+    bottom: 0;
+}
+
+.screen-1-phone2 {
+    display: none;
+}
+
+.screen-1 h1 {
+    letter-spacing: 3px;
+    padding-left: 400px;
+    margin-bottom: 40px;
+}
+
+.screen-1 .txt-block {
+    background-color: #53B50A;
+    padding-left: 498px;
+    margin-left: -98px;
+    margin-right: -98px;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+}
+
+.txt-block > p:first-child {
+    font-size: 107px;
+    font-weight: bold;
+}
+
+.txt-first {
+	display: inline-block;
+}
+
+.txt-block > p:first-child .smalltxt {
+    font-size: 53px;
+}
+
+.txt-block > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.txt-block > div > p {
+    width: 40%;
+    font-size: 31px;
+}
+
+.txt-block > div > p:last-child {
+    width: 56%;
+    font-size: 86px;
+}
+
+.screen-1 .download-section {
+    padding-left: 400px;
+}
+
+.screen-2 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #F4F4F4 url("../img/screen-2-bg.png") bottom center no-repeat;
+    min-height: 840px;
+}
+
+
+.screen-2 h3 {
+    text-align: center;
+    font-size: 56px;
+    margin-bottom: 60px;
+}
+
+.screen-2 p {
+    font-size: 250px;
+    color: #fff;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards > div {
+    width: 370px;
+}
+
+.card {
+    position: relative;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 12px 24px 0 rgba(0,0,0,.04);
+    text-align: center;
+    padding: 50px 40px;
+}
+
+.card-logo {
+    height: 50px;
+    margin-bottom: 25px;
+}
+
+.card-description {
+    color: #404A5B;
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.card-price {
+    color: #53B50A;
+    font-size: 58px;
+}
+
+.card-price span {
+    font-size: 22px;
+    color: #404A5B;
+}
+
+.card:after {
+    content: '';
+    background: rgba(255,255,255,.8);
+    position: absolute;
+    left: 17px;
+    right: 17px;
+    bottom: -12px;
+    height: 12px;
+    border-radius: 0 0 4px 4px;
+}
+
+.screen-3 {
+    background-color: #53B50A;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: #fff;
+}
+
+.screen-3 h3 {
+    color: #fff;
+    font-size: 66px;
+    margin-bottom: 15px;
+}
+
+.screen-3 ul {
+    padding: 0;
+    margin: 0 0 60px;
+    list-style-type: none;
+}
+
+.screen-3 li {
+    padding: 0;
+    margin: 0 0 15px;
+    font-size: 50px;
+}
+
+.screen-3 li span {
+    color: #A9DA85;
+    width: 65px;
+    display: inline-block;
+}
+
+.screen-4 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.screen-4 > .container {
+    display: flex;
+}
+
+.screen-4 .left {
+    width: 50%;
+}
+
+.screen-4 .left div {
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 25px;
+    letter-spacing: 1px;
+}
+
+.screen-4 .right {
+    width: 50%;
+}
+
+.screen-4 .right h3 {
+    font-size: 36px;
+    text-transform: none;
+    margin-bottom: 40px;
+}
+
+.screen-4 ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.screen-4 li {
+    font-size: 26px;
+    margin-bottom: 40px;
+    position: relative;
+    padding-left: 70px;
+}
+
+.screen-4 li:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 12px;
+    width: 40px;
+    height: 2px;
+    background-color: #53B50A;
+}
+
+.screen-5 {
+    background-color: #F4F4F4;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.screen-5 h3 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.screen-5 h3 span {
+    position: relative;
+}
+
+.screen-5 h3 span:after {
+    position: absolute;
+    content: '';
+    width: 60px;
+    height: 7px;
+    background-color: #EB1A1A;
+    bottom: 31px;
+    left: -15px;
+    transform: rotate(-65deg);
+}
+
+.screen-5 h4 {
+    margin-bottom: 20px;
+}
+
+.download-section a:first-child {
+    margin-right: 20px;
+    display: inline-block;
+}
+
+.download-section a:first-child img {
+	width: 140px;
+}
+
+.download-section a:last-child img {
+	width: 140px;
+}
+
+.screen-5-cards {
+    display: flex;
+}
+
+.screen-5-cards .card {
+    text-align: left;
+    height: 500px;
+}
+
+.screen-5-cards .card:first-child {
+    width: 470px;
+    flex: 0 0 470px;
+}
+
+.screen-5-cards p {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.screen-5-cards ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.screen-5-cards li {
+    font-size: 24px;
+    margin-bottom: 20px;
+    position: relative;
+    padding-left: 30px;
+}
+
+.screen-5-cards li:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 12px;
+    width: 20px;
+    height: 2px;
+    background-color: #d3d3d3;
+}
+
+
+.card-green {
+    background: #53B50A;
+    color: #fff;
+    margin-left: 20px;
+}
+
+.card-green h4 {
+    margin-bottom: 25px;
+}
+
+.card-green h4 img {
+    margin-right: 35px;
+}
+
+.card-green:after {
+    background: rgba(83,181,10,.4);
+}
+
+.screen-5-cards .card-green li:before {
+    background-color: #fff;
+}
+
+.screen-6 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.screen-6 h3 {
+    font-size: 42px;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+.screen-6 h3 span {
+    color: #53B50A;
+}
+
+.screen-6 .container {
+    display: flex;
+}
+
+.screen-6 .left {
+    width: 510px;
+}
+
+.screen-6 p {
+    font-size: 25px;
+    line-height: 1.4;
+}
+
+.screen-6 .download-title {
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.screen-11 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.screen-11 h3 {
+    font-size: 42px;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+.screen-11 h3 span {
+    color: #53B50A;
+}
+
+.screen-11 .container {
+    display: flex;
+}
+
+.screen-11 .left {
+    width: 50%;
+    order: 1;
+    padding-top: 100px;
+}
+
+.screen-11 .right {
+    width: 50%;
+}
+
+.screen-11 p {
+    font-size: 25px;
+    line-height: 1.4;
+}
+
+.screen-7 {
+	background: #53B50A url("../img/bg-9.png") bottom center no-repeat;
+    /*background-color: #53B50A;*/
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.screen-7 .card {
+    text-align: left;
+}
+
+.screen-7 h3 {
+    text-align: center;
+    color: #fff;
+    font-size: 42px;
+    margin-bottom: 30px;
+}
+
+.screen-7 .card {
+    padding: 40px 20px;
+}
+
+.screen-7 .cards > div {
+    width: 374px;
+}
+
+.screen-7 .card-logo {
+    height: inherit;
+}
+
+.screen-7 .card-description {
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.screen-7 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.screen-7 li {
+    font-size: 24px;
+}
+
+.screen-7 li {
+    font-size: 24px;
+    margin-bottom: 20px;
+    position: relative;
+    padding-left: 25px;
+}
+
+.screen-7 li:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 12px;
+    width: 15px;
+    height: 2px;
+    background-color: #404A5B;
+}
+
+.screen-8 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #F4F4F4;
+}
+
+.screen-8 h3 {
+    font-size: 42px;
+    text-align: center;
+}
+
+.screen-8 .download-section {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.screen-8 .container-cards {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container-cards > div > div:first-child {
+	margin-right: 13px;
+}
+
+.container-cards > div > div:last-child {
+	margin-left: 13px;
+}
+
+.screen-8 .container-cards:after {
+	content: '';
+	position: absolute;
+	background-color: #53B50A;
+	left: 0;
+	right: 0;
+	height: 235px;
+	top: 50%;
+	margin-top: -100px;
+}
+
+.screen-8 .card {
+    width: 570px;
+	position: relative;
+	z-index: 2;
+}
+
+.screen-9 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+	background: url("../img/bg-9.png") bottom center no-repeat;
+}
+
+.screen-9 h3 {
+    text-align: center;
+    font-size: 42px;
+}
+
+.screen-9 img {
+    margin: 70px auto 100px;
+}
+
+.screen-10 .container {
+    display: flex;
+    padding-left: 0;
+    padding-right: 0;
+    height: 477px;
+}
+
+.screen-10 .container > div {
+    width: 50%;
+    height: 770px;
+}
+
+.screen-10 .left {
+    background: url("../img/footer-pc.png") center center no-repeat;
+}
+
+.screen-10 .right {
+    color: #fff;
+    background: #53B50A;
+    padding: 60px;
+}
+
+.screen-10 h3 {
+    font-size: 40px;
+    color: #fff;
+}
+
+.screen-10 p {
+    font-size: 32px;
+    font-weight: 700;
+    margin: 20px;
+}
+
+.screen-10 ul {
+	list-style-type: none;
+	margin: 0 20px;
+	padding: 0;
+}
+
+.screen-10 span {
+	width: 60px;
+	display: inline-block;
+}
+
+.screen-10 a {
+	color: #fff;
+	display: flex;
+	align-items: center;
+}
+
+.social-footer {
+	font-size: 32px;
+	font-weight: 500;
+}
+
+.mail {
+	font-size: 22px;
+	text-decoration: underline;
+}
+
+.download-footer {
+	font-size: 20px!important;
+	font-weight: 700!important;
+	margin: 25px 0!important;
+}
+
+.screen-10 .download-section {
+	display: flex;
+}
+
+.screen-10 .download-section a {
+	display: inline-block;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .newtxt {
+        position: static;
+        padding-left: 0;
+        font-size: 13px;
+        margin-top: 0;
+        height: 30px;
+    }
+
+    header .social span {
+        display: none;
+    }
+
+    header .social {
+        flex: 1 0 auto;
+        justify-content: flex-end;
+        padding-right: 10px;
+    }
+
+    header .social a {
+        margin-right: 15px;
+        position: relative;
+        border-radius: 50%;
+        animation: pulse 3s ease-out infinite;
+    }
+
+    header .social img {
+        margin-left: 0;
+        display: inherit;
+    }
+
+    header .social a:last-child {
+        animation-delay: 1.5s;
+    }
+
+    @keyframes pulse {
+        0% {transform: scale(1)}
+        10% {transform: scale(.9)}
+        20% {transform: scale(1.3)}
+        30% {transform: scale(1)}
+        100% {transform: scale(1)}
+    }
+
+    header .phone a span {
+        display: none;
+    }
+
+    header .phone a img {
+        margin-right: 0;
+        width: 26px;
+    }
+
+
+	.txt-first {
+		display: block;
+	}
+
+	.smalltxt {
+		display: block;
+	}
+
+    .screen-1 {
+        background: url("../img/screen-1-bg.png") bottom center no-repeat;
+    }
+
+    .screen-1 > .container {
+        padding-top: 30px;
+        min-height: 200px;
+        padding-bottom: 50px;
+    }
+
+    .screen-1-phone {
+        display: none;
+    }
+
+    .screen-1-phone2 {
+        position: absolute;
+        left: -90px;
+        top: 85px;
+        bottom: auto;
+        width: 144px;
+        display: inherit;
+    }
+
+    .screen-1 h1 {
+        padding-left: 55px;
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .screen-1 .txt-block {
+        padding-left: 0;
+        margin-left: -15px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+        width: calc(100% + 30px);
+    }
+
+	.screen-1 .download-section {
+		text-align: center;
+	}
+
+    .txt-block > p:first-child {
+        font-size: 36px;
+        padding-left: 70px;
+        line-height: 1.1;
+    }
+
+    .txt-block > p:first-child .smalltxt {
+        font-size: 24px;
+        margin-right: 5px;
+        display: inline-block;
+    }
+
+    .txt-block > div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 20px;
+        padding-left: 40px;
+    }
+
+    .txt-block > div > p {
+        width: 50%;
+        font-size: 17px;
+        padding-left: 30px;
+        padding-right: 10px;
+    }
+
+    .txt-block > div > p:last-child {
+        width: 50%;
+        font-size: 30px;
+		padding-left: 15px;
+    }
+
+    .screen-1 .download-section {
+        padding-left: 0;
+    }
+
+    .download-section a:first-child img {
+        max-width: 130px;
+        height: 40px;
+    }
+
+    .download-section a:last-child img {
+        /*max-width: 120px;*/
+        height: 40px;
+    }
+
+    .download-section a:first-child {
+        margin-right: 10px;
+    }
+
+
+    .screen-2 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        min-height: inherit;
+    }
+
+    .screen-2 h3 {
+        text-align: center;
+        font-size: 22px;
+        margin-bottom: 30px;
+    }
+
+    .screen-2 p {
+        font-size: 60px;
+    }
+
+    .cards {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+
+    .cards > div {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .card {
+        padding: 20px 10px;
+        display: flex;
+        text-align: left;
+        align-items: center;
+    }
+
+    .card-logo {
+        height: 100%;
+        margin-bottom: 25px;
+        padding-right: 15px;
+        width: 50%;
+        display: flex;
+        align-items: center;
+    }
+
+    .card-description {
+        font-size: 15px;
+    }
+
+    .card-price {
+        font-size: 48px;
+    }
+
+    .card-price span {
+        font-size: 18px;
+    }
+
+    .screen-3 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .screen-3 h3 {
+        font-size: 36px;
+        margin-bottom: 15px;
+    }
+
+    .screen-3 ul {
+        padding: 0;
+        margin: 0 0 60px;
+        list-style-type: none;
+    }
+
+    .screen-3 li {
+        padding: 0 0 0 50px;
+        margin: 0 0 15px;
+        font-size: 24px;
+        position: relative;
+    }
+
+    .screen-3 li span {
+        color: #A9DA85;
+        width: 65px;
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .screen-4 {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .screen-4 > .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .screen-4 .left {
+        width: 100%;
+        order: 1;
+    }
+
+    .screen-4 .left div {
+        font-size: 16px;
+        margin-top: 25px;
+    }
+
+    .screen-4 .right {
+        width: 100%;
+    }
+
+    .screen-4 .right h3 {
+        font-size: 28px;
+        text-transform: none;
+        margin-bottom: 40px;
+    }
+
+    .screen-4 ul {
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+    }
+
+    .screen-4 li {
+        font-size: 18px;
+        margin-bottom: 20px;
+        position: relative;
+        padding-left: 30px;
+    }
+
+    .screen-4 li:before {
+        position: absolute;
+        content: '';
+        left: 0;
+        top: 12px;
+        width: 20px;
+        height: 2px;
+        background-color: #53B50A;
+    }
+
+
+    .screen-5 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .screen-5 h3 {
+        text-align: center;
+        font-size: 36px;
+        margin-bottom: 36px;
+    }
+
+    .screen-5 h3 span {
+        position: relative;
+    }
+
+    .screen-5 h3 span:after {
+        position: absolute;
+        content: '';
+        width: 30px;
+        height: 5px;
+        background-color: #EB1A1A;
+        bottom: 20px;
+        left: -5px;
+        transform: rotate(-65deg);
+    }
+
+    .screen-5 h4 {
+        margin-bottom: 20px;
+    }
+
+    .download-section a:first-child {
+        margin-right: 20px;
+        display: inline-block;
+    }
+
+    .screen-5-cards {
+        display: block;
+    }
+
+    .screen-5-cards .card {
+        text-align: left;
+        height: auto;
+        display: block;
+        width: 100%!important;
+        flex: 0 0 auto!important;
+        margin: 0 0 30px;
+        padding: 25px;
+    }
+
+    .screen-5-cards .card:first-child {
+        width: 470px;
+        flex: 0 0 470px;
+    }
+
+    .screen-5-cards p {
+        font-size: 24px;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+
+    .screen-5-cards ul {
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+    }
+
+    .screen-5-cards li {
+        font-size: 16px;
+        margin-bottom: 16px;
+        padding-left: 30px;
+    }
+
+    .screen-5-cards li:before {
+        position: absolute;
+        content: '';
+        left: 0;
+        top: 7px;
+        width: 20px;
+        height: 2px;
+        background-color: #d3d3d3;
+    }
+
+
+    .card-green {
+        background: #53B50A;
+        color: #fff;
+        margin-left: 20px;
+    }
+
+    .card-green h4 {
+        margin-bottom: 25px;
+    }
+
+    .card-green h4 img {
+        margin-right: 35px;
+    }
+
+    .card-green:after {
+        background: rgba(83,181,10,.4);
+    }
+
+    .screen-5-cards .card-green li:before {
+        background-color: #fff;
+    }
+
+    .screen-6 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .screen-6 h3 {
+        font-size: 24px;
+        line-height: 1.4;
+        margin-bottom: 20px;
+    }
+
+    .screen-6 h3 span {
+        color: #53B50A;
+    }
+
+    .screen-6 .container {
+        display: block;
+    }
+
+    .screen-6 .left {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .screen-6 p {
+        font-size: 20px;
+    }
+
+    .screen-6 .download-title {
+        font-size: 20px;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        display: inline-block;
+    }
+
+    .screen-7 {
+        background: #53B50A url("../img/bg-9.png") bottom center no-repeat;
+        /*background-color: #53B50A;*/
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .screen-7 .card {
+        text-align: left;
+    }
+
+    .screen-7 h3 {
+        font-size: 24px;
+        line-height: 1.4;
+    }
+
+    .screen-7 .card {
+        padding: 40px 20px;
+        display: block;
+    }
+
+    .screen-7 .cards > div {
+        width: 100%;
+    }
+
+    .screen-7 .cards > div:last-child {
+        display: none;
+    }
+
+    .screen-7 .card-logo {
+        height: inherit;
+    }
+
+    .screen-7 .card-description {
+        font-size: 24px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 15px;
+    }
+
+    .screen-7 ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .screen-7 li {
+        font-size: 21px;
+        margin-bottom: 20px;
+        position: relative;
+        padding-left: 25px;
+    }
+
+    .screen-7 li:before {
+        position: absolute;
+        content: '';
+        left: 0;
+        top: 12px;
+        width: 15px;
+        height: 2px;
+        background-color: #404A5B;
+    }
+
+    .screen-8 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background-color: #F4F4F4;
+    }
+
+    .screen-8 h3 {
+        font-size: 20px;
+        text-align: left;
+    }
+
+    .screen-8 .download-section {
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 60px;
+    }
+
+    .screen-8 .container-cards {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .container-cards > div > div:first-child {
+        margin-right: 0;
+        order: 1;
+    }
+
+    .container-cards > div > div:last-child {
+        margin-left: 0;
+    }
+
+    .screen-8 .container-cards:after {
+        content: '';
+        position: absolute;
+        background-color: #53B50A;
+        left: 0;
+        right: 0;
+        height: 235px;
+        top: 50%;
+        margin-top: -100px;
+    }
+
+    .screen-8 .card {
+        width: 100%;
+        position: relative;
+        z-index: 2;
+    }
+
+    .screen-9 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .screen-9 h3 {
+        text-align: center;
+        font-size: 28px;
+    }
+
+    .screen-9 img {
+        margin: 40px auto 100px;
+    }
+
+    .screen-10 .container {
+        display: flex;
+        padding-left: 0;
+        padding-right: 0;
+        height: inherit;
+        flex-direction: column;
+    }
+
+    .screen-10 .container > div {
+        width: 100%;
+        height: 770px;
+    }
+
+    .screen-10 .left {
+        background: url("../img/footer.png") center center no-repeat;
+        order: 1;
+    }
+
+    .screen-10 .right {
+        color: #fff;
+        background: #53B50A;
+        padding: 20px 20px 30px;
+        height: inherit!important;
+    }
+
+    .screen-10 h3 {
+        font-size: 24px;
+        color: #fff;
+        letter-spacing: 2px;
+    }
+
+    .screen-10 p {
+        font-size: 24px;
+        font-weight: 700;
+        margin: 20px 0;
+    }
+
+    .screen-10 ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .screen-10 span {
+        width: 60px;
+        display: inline-block;
+    }
+
+    .screen-10 a {
+        color: #fff;
+        display: flex;
+        align-items: center;
+    }
+
+    .social-footer {
+        font-size: 20px!important;
+    }
+
+    .mail {
+        font-size: 16px;
+        text-decoration: underline;
+    }
+
+	.screen-10 .left {
+		height: 570px!important;
+		background: url("../img/footer-mobile.png") center center no-repeat;
+		background-size: cover;
+
+	}
+
+    .download-footer {
+        font-size: 20px!important;
+        font-weight: 700!important;
+        margin: 25px 0!important;
+    }
+
+    .screen-10 .download-section {
+        display: flex;
+    }
+
+    .screen-10 .download-section a {
+        display: inline-block;
+    }
+
+
+    .screen-11 h3 {
+        font-size: 24px;
+        line-height: 1.4;
+        margin-bottom: 20px;
+    }
+
+    .screen-11 .container {
+        display: block;
+    }
+
+    .screen-11 .left {
+        width: 100%;
+        order: 0;
+        padding-top: 0;
+    }
+
+    .screen-11 .left img {
+        max-width: 200px;
+    }
+
+    .screen-11 .right {
+        width: 100%;
+    }
+
+    .screen-11 p {
+        font-size: 20px;
+    }
+}
+
+
+
+
+
+
